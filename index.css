@@ -1,0 +1,25 @@
+.link-wrap {
+  width: 100%;
+  min-height: 100%;
+  background-color: #f1f4f9;
+}
+.link-wrap .link-item {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.link-wrap .link-item .box-card {
+  width: 90%;
+  margin-bottom: 20px;
+}
+.link-wrap .link-item .box-item {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.link-wrap .link-item .box-item:hover {
+  color: #409eff;
+}
